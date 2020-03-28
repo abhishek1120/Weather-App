@@ -1,0 +1,37 @@
+* {
+  font-family: "Quicksand", sans-serif;
+}
+body {
+  background-color: #333;
+  letter-spacing: 0.2em;
+  font-size: 0.8em;
+}
+.container {
+  max-width: 400px;
+}
+
+/* input:focus {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+} */
+.icon {
+  position: relative;
+  top: -50px;
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: -50px;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  label {
+    font-size: 1rem;
+  }
+  img {
+    width: 35px;
+    height: 35px;
+  }
+}
